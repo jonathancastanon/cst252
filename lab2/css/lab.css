@@ -1,0 +1,60 @@
+h1{
+  color: white;
+  text-align: center;
+  margin-top: -50px;
+}
+
+div#jonathan{
+  background-color: red;
+  margin-right: 800px;
+  font-size: 35px;
+}
+
+div#gabby{
+  background-color: red;
+  margin-left: 800px;
+  margin-top: -280px;
+  font-size: 35px;
+}
+
+body{
+  background-color: black;
+}
+
+nav#homelink{
+  border: solid 5px red;
+  border-radius: 25px;
+  background-color: red;
+  margin-right: 1200px;
+  text-align: center;
+  font-size: 40px;
+}
+
+nav#youtubelink{
+  border: solid 5px red;
+  border-radius: 25px;
+  background-color: red;
+  margin-left: 1000px;
+  text-align: center;
+  font-size: 40px;
+  margin-top: -55px;
+
+}
+
+nav a{
+  color: white;
+}
+
+div#image{
+  margin-top: 60px;
+  text-align: center;
+}
+
+div#image2{
+  margin-left: 330px;
+  margin-top: -300px;
+}
+
+div#image3{
+  margin-left: 1000px;
+}
