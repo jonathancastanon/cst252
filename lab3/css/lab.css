@@ -3,9 +3,6 @@ div#banner{
   color: white;
 }
 
-
-
-
 div.col-sm-4#summary{
   font-size: 20px;
   text-align: center;
@@ -66,3 +63,7 @@ div.col-sm-4#file{
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+ul.pagination{
+  margin-left: 40%;
+}
