@@ -1,3 +1,4 @@
+
 div#banner{
   background-color: #FA9000;
   color: white;
@@ -20,12 +21,15 @@ button{
 div.col-sm-4#file{
   background-color: #AB680B;
   color: white;
+  text-align: center;
+  border-style: outset;
+  background-color: #AB680B;
+  font-size: 20px;
 }
 
 /* Dropdown Button */
 .dropbtn {
   color: white;
-  padding: 16px;
   font-size: 16px;
   border: none;
   text-align: center;
@@ -66,4 +70,9 @@ div.col-sm-4#file{
 
 ul.pagination{
   margin-left: 40%;
+}
+
+img{
+  margin-left: 25%;
+  margin-top: 10%;
 }
