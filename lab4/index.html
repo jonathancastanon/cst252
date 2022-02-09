@@ -1,11 +1,104 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Lab X - Subject/Topic</title>
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
-</head>
-<body>
+<html lang="en" dir="ltr">
+<script src="js/lab.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-</body>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/lab.css">
+  <head>
+    <meta charset="utf-8">
+    <title>Lab 4 Pseudocoding and Problem Solving</title>
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html">Home</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Lab 4</a></li>
+        <li><a href="../lab1/index.html">Page 1</a></li>
+        <li><a href="../lab2/index.html">Page 2</a></li>
+        <li><a href="../lab3/index.html">Page 3</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  </head>
+  <div class="container">
+  <div class="jumbotron">
+    <img src="img/welcome.png">
+  </div>
+  <p id="text">Today, in this lab we learned about to plan out our code psuedocode. In, this lab I coded how to make a photoshop file and start an assignment. I misinturperated the assignment details and I javascripted a tic tak toe game. It works really well but it was weird to style. I did not have much trouble with this lab and it was fairly easy</p>
+
+</div>
+  <body>
+    <div id="main">
+      <h1>TIC TAC TOE</h1>
+
+      <!-- Game Instructions -->
+      <p id="ins">Game starts by just Tap on
+          box<br><br>First Player starts as
+          <b>Player X</b><br>And<br>Second
+          Player as <b>Player 0</b>
+      </p>
+
+
+
+
+      <br><br>
+      <!-- 3*3 grid of Boxes -->
+      <input type="text" id="b1" onclick=
+          "myfunc_3(); myfunc();" readonly>
+
+      <input type="text" id="b2" onclick=
+          "myfunc_4(); myfunc();" readonly>
+
+      <input type="text" id="b3" onclick=
+          "myfunc_5(); myfunc();" readonly>
+      <br><br>
+
+      <input type="text" id="b4" onclick=
+          "myfunc_6(); myfunc();" readonly>
+
+      <input type="text" id="b5" onclick=
+          "myfunc_7(); myfunc();" readonly>
+
+      <input type="text" id="b6" onclick=
+          "myfunc_8(); myfunc();" readonly>
+      <br><br>
+
+      <input type="text" id="b7" onclick=
+          "myfunc_9(); myfunc();" readonly>
+
+      <input type="text" id="b8" onclick=
+          "myfunc_10();myfunc();" readonly>
+
+      <input type="text" id="b9" onclick=
+          "myfunc_11();myfunc();" readonly>
+
+      <!-- Grid end here  -->
+      <br><br><br>
+      <!-- Button to reset game -->
+      <button id="but" onclick="myfunc_2()">
+          RESET
+      </button>
+
+      <br><br>
+      <!-- Space to show player turn -->
+      <p id="print"></p>
+
+    </div>
+
+  </body>
+
 </html>
